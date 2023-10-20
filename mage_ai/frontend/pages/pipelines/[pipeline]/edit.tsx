@@ -1670,6 +1670,7 @@ function PipelineDetailPage({
   }: {
     block: BlockRequestPayloadType;
     idx?: number;
+    isReplacingBlock?: boolean;
     isUpdatingBlock?: boolean;
     name: string;
     onCreateCallback?: (block: BlockType) => void;
