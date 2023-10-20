@@ -1510,6 +1510,7 @@ function CodeBlock({
                             fullPath: true,
                           })}
                           size={null}
+                          widthFitContent
                         >
                           <Text monospace muted>
                             {getModelName(block)}
