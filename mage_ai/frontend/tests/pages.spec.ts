@@ -17,6 +17,6 @@ test('ensure all main pages load properly', async ({ page }) => {
   await navigateToAndWaitTilLoaded('Templates');
   await navigateToAndWaitTilLoaded('Version control');
   await navigateToAndWaitTilLoaded('Terminal');
-  await navigateToAndWaitTilLoaded('Global hooks (beta)');
-  await navigateToAndWaitTilLoaded('Compute management (beta)');
+  await navigateToAndWaitTilLoaded('Global hooks');
+  await navigateToAndWaitTilLoaded('Compute management');
 });
